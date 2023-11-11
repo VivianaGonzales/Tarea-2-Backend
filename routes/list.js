@@ -1,7 +1,7 @@
 const express = require ('express')
 const router = express.Router()
-const listController = require ('../controllers/listController')
+const {lista} = require ('../controllers/listController')
 
-router.get('/list',listController)
+router.get('/lista', lista)
 
 module.exports = router

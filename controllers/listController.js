@@ -1,5 +1,4 @@
-const listController = (req,res) =>{
-    // listGet (req,res){
+const lista = (req, res) =>{
         res.json({
             producto1: 'Pan',
             producto2: 'queso',
@@ -9,5 +8,4 @@ const listController = (req,res) =>{
         })
     }
 
-
-module.exports = listController
+module.exports = {lista}
